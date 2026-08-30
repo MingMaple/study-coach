@@ -2,6 +2,13 @@
 
 本项目遵循 [语义化版本](https://semver.org/lang/zh-CN/) 规范。
 
+## [1.0.1] - 2026-08-30
+
+### 修正
+
+- 修复 `batch_update.py` 中 `schedule_due` 操作缺少 `plan` 参数导致必然失败的问题。
+- README 补充 Windows/Linux 命令差异说明；`.gitignore` 补充白名单机制注释。
+
 ## [1.0.0] - 2026-08-30
 
 ### 首次公开发布

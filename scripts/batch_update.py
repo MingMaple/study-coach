@@ -127,6 +127,7 @@ def _make_args(params, project_dir):
         'date': None, 'section': None, 'what': None, 'insight': None,
         'practice': None, 'weak': None, 'next': None,
         'passed': False,
+        'plan': False,  # schedule_due 需要（缺省会 AttributeError，历史 bug）
     })
     for k, v in params.items():
         setattr(args, k, v)

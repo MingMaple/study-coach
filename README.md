@@ -17,6 +17,8 @@ AI 学习教练技能：诊断式学习规划、前置知识补齐、费曼式�
 
 ## 快速开始
 
+> Windows 使用 `python`，Linux/macOS/Termux 使用 `python3`（以下示例以 Linux 为准）。
+
 ```bash
 # 安装依赖
 pip install -r requirements.txt

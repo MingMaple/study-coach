@@ -1,3 +1,6 @@
+# 白名单机制：默认忽略一切，仅显式放行公开文件。
+# 学习项目数据（tree.json/_review.md/_session_context.md/attachments/ 等）默认不入库。
+# 新增公开文件时，必须在此文件中显式放行，否则不会被 git 跟踪。
 /*
 !/LICENSE
 !/README.md
